@@ -10,4 +10,4 @@ main.js
 
 xxx.vue
 
-     <count-down seconds="60" name="myCountDown"></count-down>
+     <count-down seconds="60" name="myCountDown" tips="后重新发送"></count-down>
