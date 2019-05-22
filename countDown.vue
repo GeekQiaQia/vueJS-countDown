@@ -1,13 +1,13 @@
 <template>
     <div class="counter">
-        <span>{{timeCounter<10&&timeCounter>0?"0"+timeCounter:timeCounter}}</span>s
+        <span>{{timeCounter<10&&timeCounter>0?"0"+timeCounter:timeCounter}}</span>s{{tips}}
     </div>
 </template>
 
 <script>
     export default {
         name: "countDown",
-        props:['seconds','name'],
+        props:['seconds','name','tips'],
         data() {
             return {
                 timeCounter:0
