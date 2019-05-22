@@ -31,8 +31,12 @@
                     }else{
                         localStorage.removeItem(`_${this.name}_`)
                         clearInterval(timer);
+                        this.onTimeout();
                     }
                 },1000)
+            },
+            onTimeout(){
+                this.$emit("onTimeout");
             }
                },
         computed: {},
