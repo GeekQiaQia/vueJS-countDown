@@ -1,4 +1,4 @@
-v0.1-alpha:
+v0.2-alpha:
 
 利用localStorage存储倒计时状态；
 
