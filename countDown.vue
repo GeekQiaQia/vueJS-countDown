@@ -1,6 +1,6 @@
 <template>
     <div class="counter">
-        <span>{{timeCounter<10&&timeCounter>0?"0"+timeCounter:timeCounter}}</span>s{{tips}}
+        <span>{{timeCounter<10&&timeCounter>0?"0"+timeCounter:timeCounter}}</span>{{tips}}
     </div>
 </template>
 
